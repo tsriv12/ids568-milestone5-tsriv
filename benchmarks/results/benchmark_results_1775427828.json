@@ -1,0 +1,110 @@
+{
+  "single_request_no_cache": {
+    "n": 10,
+    "cache_hits": 0,
+    "hit_rate": 0.0,
+    "mean_ms": 2281.04,
+    "median_ms": 2279.83,
+    "p95_ms": 2303.61,
+    "p99_ms": 2303.61,
+    "min_ms": 2268.63,
+    "max_ms": 2303.61,
+    "throughput_rps": 4.38
+  },
+  "batched_no_cache": {
+    "n": 20,
+    "cache_hits": 0,
+    "hit_rate": 0.0,
+    "mean_ms": 7329.78,
+    "median_ms": 8643.58,
+    "p95_ms": 9747.92,
+    "p99_ms": 9747.92,
+    "min_ms": 4861.64,
+    "max_ms": 9747.92,
+    "throughput_rps": 2.73
+  },
+  "cold_cache": {
+    "n": 20,
+    "cache_hits": 10,
+    "hit_rate": 0.5,
+    "mean_ms": 1989.84,
+    "median_ms": 1986.55,
+    "p95_ms": 3987.58,
+    "p99_ms": 3987.58,
+    "min_ms": 1.44,
+    "max_ms": 3987.58,
+    "throughput_rps": 10.05
+  },
+  "warm_cache": {
+    "n": 20,
+    "cache_hits": 16,
+    "hit_rate": 0.8,
+    "mean_ms": 893.33,
+    "median_ms": 2.11,
+    "p95_ms": 4462.49,
+    "p99_ms": 4462.49,
+    "min_ms": 1.38,
+    "max_ms": 4462.49,
+    "throughput_rps": 22.39
+  },
+  "throughput_low_10rps": {
+    "n": 15,
+    "cache_hits": 10,
+    "hit_rate": 0.667,
+    "mean_ms": 1912.06,
+    "median_ms": 3.93,
+    "p95_ms": 5729.64,
+    "p99_ms": 5729.64,
+    "min_ms": 2.9,
+    "max_ms": 5729.64,
+    "throughput_rps": 7.84
+  },
+  "throughput_med_50rps": {
+    "n": 20,
+    "cache_hits": 5,
+    "hit_rate": 0.25,
+    "mean_ms": 4188.97,
+    "median_ms": 4890.39,
+    "p95_ms": 9780.2,
+    "p99_ms": 9780.2,
+    "min_ms": 1.48,
+    "max_ms": 9780.2,
+    "throughput_rps": 4.77
+  },
+  "throughput_high_100rps": {
+    "n": 25,
+    "cache_hits": 6,
+    "hit_rate": 0.24,
+    "mean_ms": 5554.35,
+    "median_ms": 4918.05,
+    "p95_ms": 9829.28,
+    "p99_ms": 9829.74,
+    "min_ms": 1.6,
+    "max_ms": 9829.74,
+    "throughput_rps": 4.5
+  },
+  "hit_rate_series": {
+    "n": 50,
+    "cache_hits": 35,
+    "hit_rate": 0.7,
+    "mean_ms": 1204.62,
+    "median_ms": 2.59,
+    "p95_ms": 4039.44,
+    "p99_ms": 4040.26,
+    "min_ms": 1.0,
+    "max_ms": 4040.26,
+    "throughput_rps": 41.51
+  },
+  "final_metrics": {
+    "cache": {
+      "backend": "redis",
+      "size": 11,
+      "hits": 83,
+      "misses": 69,
+      "hit_rate": 0.5460526315789473
+    },
+    "queue_depth": 0,
+    "cpu_pct": 4.8,
+    "ram_used_gb": 1.43
+  }
+}

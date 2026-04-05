@@ -1,0 +1,402 @@
+[
+  {
+    "result": "How do neural networks work?1. What is the difference between a neural network and a neural network?2. What is the difference between a neural network and a neural network?3. What is the difference between a neural network and a neural network?4. What is the",
+    "cache_hit": false,
+    "latency_ms": 4017.716952000228,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4023.0628459999025,
+    "request_id": 0
+  },
+  {
+    "result": "Write a short poem about technology\n\nI\u2019m a student at the University of California, Berkeley, and I\u2019m currently working on a short poem about technology. I\u2019m currently working on a short poem about technology.\n\nI\u2019m currently",
+    "cache_hit": false,
+    "latency_ms": 4018.805208000231,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4023.5611739999513,
+    "request_id": 1
+  },
+  {
+    "result": "What is the capital of France?\nFrance is the capital of the French Republic.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not",
+    "cache_hit": false,
+    "latency_ms": 4018.825683000159,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4024.5334599999296,
+    "request_id": 2
+  },
+  {
+    "result": "The history of the internet began\n\nThe internet is a new technology that has been around for a long time. It is a new way of communicating with people. It is a new way of communicating with people. It is a new way of communicating with people. It is a",
+    "cache_hit": false,
+    "latency_ms": 4018.237599999793,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4023.4908610000275,
+    "request_id": 3
+  },
+  {
+    "result": "The best way to learn programming is to learn the language.\nI'm not sure if you're being sarcastic or not, but I think you're right. I'm not sure if I'm being sarcastic or not.\nI'm not sure either. I'm just saying that the",
+    "cache_hit": false,
+    "latency_ms": 4018.3401389999744,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4024.474043000282,
+    "request_id": 4
+  },
+  {
+    "result": "What causes climate change?oothing\n\nThe climate change debate is a hot topic in the media. The debate is often heated and heated, but the truth is that the climate is changing.\n\nThe climate change debate is a hot topic in the media. The debate",
+    "cache_hit": false,
+    "latency_ms": 4038.3361780000087,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4039.8446939998394,
+    "request_id": 5
+  },
+  {
+    "result": "What is the capital of France?\nFrance is the capital of the French Republic.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not",
+    "cache_hit": true,
+    "latency_ms": 0.7138510000004317,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.187433000017336,
+    "request_id": 6
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": false,
+    "latency_ms": 4038.2495080002627,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4040.261972999815,
+    "request_id": 7
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": false,
+    "latency_ms": 4036.5246810001736,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4039.4412539999394,
+    "request_id": 8
+  },
+  {
+    "result": "Explain machine learning in simple terms.\n\nMachine learning is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is",
+    "cache_hit": false,
+    "latency_ms": 4036.9645700002366,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4039.090708999993,
+    "request_id": 9
+  },
+  {
+    "result": "Describe the water cycle\n\nWater cycle is a process in which water is pumped from the surface of the water source to the surface of the water source. The process is called the cycle of water.\n\nThe cycle of water is a process in which water is pumped",
+    "cache_hit": false,
+    "latency_ms": 4035.3535010003725,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4037.544488000094,
+    "request_id": 10
+  },
+  {
+    "result": "Write a short poem about technology\n\nI\u2019m a student at the University of California, Berkeley, and I\u2019m currently working on a short poem about technology. I\u2019m currently working on a short poem about technology.\n\nI\u2019m currently",
+    "cache_hit": true,
+    "latency_ms": 0.6682709999950021,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.28875099992365,
+    "request_id": 11
+  },
+  {
+    "result": "Write a short poem about technology\n\nI\u2019m a student at the University of California, Berkeley, and I\u2019m currently working on a short poem about technology. I\u2019m currently working on a short poem about technology.\n\nI\u2019m currently",
+    "cache_hit": true,
+    "latency_ms": 1.4598249999835389,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.5295569998888823,
+    "request_id": 12
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 2.155382000182726,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 4.299327999888192,
+    "request_id": 13
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 1.6930050001064956,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.962523999689438,
+    "request_id": 14
+  },
+  {
+    "result": "How do neural networks work?1. What is the difference between a neural network and a neural network?2. What is the difference between a neural network and a neural network?3. What is the difference between a neural network and a neural network?4. What is the",
+    "cache_hit": true,
+    "latency_ms": 1.1474100001578336,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.4035820001699904,
+    "request_id": 15
+  },
+  {
+    "result": "What is the capital of France?\nFrance is the capital of the French Republic.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not",
+    "cache_hit": true,
+    "latency_ms": 1.4820549999967625,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.775803999611526,
+    "request_id": 16
+  },
+  {
+    "result": "What is transfer learning?\n\nTransfer learning is a term used to describe the process of learning a new language. It is a process that involves learning a new language, and then transferring the language to another language.\n\nTransfer learning is a process that involves learning a new",
+    "cache_hit": false,
+    "latency_ms": 3975.1417850002326,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3977.0520530000795,
+    "request_id": 17
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.4733100004159496,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.0947930001966597,
+    "request_id": 18
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 1.0939530002360698,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.493870999842329,
+    "request_id": 19
+  },
+  {
+    "result": "What is transfer learning?\n\nTransfer learning is a term used to describe the process of learning a new language. It is a process that involves learning a new language, and then transferring the language to another language.\n\nTransfer learning is a process that involves learning a new",
+    "cache_hit": false,
+    "latency_ms": 3971.3221100000737,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3973.746011000003,
+    "request_id": 20
+  },
+  {
+    "result": "How do neural networks work?1. What is the difference between a neural network and a neural network?2. What is the difference between a neural network and a neural network?3. What is the difference between a neural network and a neural network?4. What is the",
+    "cache_hit": true,
+    "latency_ms": 0.8857289999468776,
+    "batch_queue_depth": 1,
+    "client_latency_ms": 2.8175799998280127,
+    "request_id": 21
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.8771180000621825,
+    "batch_queue_depth": 1,
+    "client_latency_ms": 1.974921000055474,
+    "request_id": 22
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.39081000022633816,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.5686010001445538,
+    "request_id": 23
+  },
+  {
+    "result": "Explain machine learning in simple terms.\n\nMachine learning is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is",
+    "cache_hit": true,
+    "latency_ms": 0.8005929998944339,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.0477439998103364,
+    "request_id": 24
+  },
+  {
+    "result": "Explain machine learning in simple terms.\n\nMachine learning is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is",
+    "cache_hit": true,
+    "latency_ms": 0.8308169999509118,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.6546549997874536,
+    "request_id": 25
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.824303999706899,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.751449000039429,
+    "request_id": 26
+  },
+  {
+    "result": "What is transfer learning?\n\nTransfer learning is a term used to describe the process of learning a new language. It is a process that involves learning a new language, and then transferring the language to another language.\n\nTransfer learning is a process that involves learning a new",
+    "cache_hit": false,
+    "latency_ms": 3967.376972999773,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3969.5468160002747,
+    "request_id": 27
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.5066500002612884,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.4478869998129085,
+    "request_id": 28
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.5254520001471974,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.5788199998496566,
+    "request_id": 29
+  },
+  {
+    "result": "The history of the internet began\n\nThe internet is a new technology that has been around for a long time. It is a new way of communicating with people. It is a new way of communicating with people. It is a new way of communicating with people. It is a",
+    "cache_hit": true,
+    "latency_ms": 0.2723820002756838,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.2541780001811276,
+    "request_id": 30
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.24429199993392103,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.405026000156795,
+    "request_id": 31
+  },
+  {
+    "result": "Describe the water cycle\n\nWater cycle is a process in which water is pumped from the surface of the water source to the surface of the water source. The process is called the cycle of water.\n\nThe cycle of water is a process in which water is pumped",
+    "cache_hit": true,
+    "latency_ms": 0.4546729996945942,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.621691999844188,
+    "request_id": 32
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.5026530002396612,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.5017460000308347,
+    "request_id": 33
+  },
+  {
+    "result": "Explain quantum computing briefly.\nI'm not sure what you mean by \"explain quantum computing briefly\".  I'm not sure what you mean by \"explain quantum computing briefly\".  I'm not sure what you mean by \"explain quantum computing briefly\". ",
+    "cache_hit": false,
+    "latency_ms": 3961.996884999735,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3963.217073999658,
+    "request_id": 34
+  },
+  {
+    "result": "Explain machine learning in simple terms.\n\nMachine learning is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is",
+    "cache_hit": true,
+    "latency_ms": 0.23297300003832788,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.0710880001170153,
+    "request_id": 35
+  },
+  {
+    "result": "The best way to learn programming is to learn the language.\nI'm not sure if you're being sarcastic or not, but I think you're right. I'm not sure if I'm being sarcastic or not.\nI'm not sure either. I'm just saying that the",
+    "cache_hit": true,
+    "latency_ms": 0.20997799992983346,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.0017620002145122,
+    "request_id": 36
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.23291399975278182,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.0091580002153933,
+    "request_id": 37
+  },
+  {
+    "result": "What is the capital of France?\nFrance is the capital of the French Republic.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not",
+    "cache_hit": true,
+    "latency_ms": 0.22508599977300037,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.06085700008407,
+    "request_id": 38
+  },
+  {
+    "result": "The best way to learn programming is to learn the language.\nI'm not sure if you're being sarcastic or not, but I think you're right. I'm not sure if I'm being sarcastic or not.\nI'm not sure either. I'm just saying that the",
+    "cache_hit": true,
+    "latency_ms": 0.23994899993340368,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.02481700014323,
+    "request_id": 39
+  },
+  {
+    "result": "Write a short poem about technology\n\nI\u2019m a student at the University of California, Berkeley, and I\u2019m currently working on a short poem about technology. I\u2019m currently working on a short poem about technology.\n\nI\u2019m currently",
+    "cache_hit": true,
+    "latency_ms": 0.22991299965724465,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.0313859997950203,
+    "request_id": 40
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 0.23044399995342246,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 1.018227999793453,
+    "request_id": 41
+  },
+  {
+    "result": "What is transfer learning?\n\nTransfer learning is a term used to describe the process of learning a new language. It is a process that involves learning a new language, and then transferring the language to another language.\n\nTransfer learning is a process that involves learning a new",
+    "cache_hit": false,
+    "latency_ms": 3955.256357000053,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3956.600073000118,
+    "request_id": 42
+  },
+  {
+    "result": "Explain quantum computing briefly.\nI'm not sure what you mean by \"explain quantum computing briefly\".  I'm not sure what you mean by \"explain quantum computing briefly\".  I'm not sure what you mean by \"explain quantum computing briefly\". ",
+    "cache_hit": true,
+    "latency_ms": 0.8717690002413292,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.479358000073262,
+    "request_id": 43
+  },
+  {
+    "result": "The best way to learn programming is to learn the language.\nI'm not sure if you're being sarcastic or not, but I think you're right. I'm not sure if I'm being sarcastic or not.\nI'm not sure either. I'm just saying that the",
+    "cache_hit": true,
+    "latency_ms": 1.6703289998076798,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.1644209998376027,
+    "request_id": 44
+  },
+  {
+    "result": "Write a short poem about technology\n\nI\u2019m a student at the University of California, Berkeley, and I\u2019m currently working on a short poem about technology. I\u2019m currently working on a short poem about technology.\n\nI\u2019m currently",
+    "cache_hit": true,
+    "latency_ms": 1.420953999968333,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.8807640003142296,
+    "request_id": 45
+  },
+  {
+    "result": "What is machine learning?)\n\nMachine learning is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University of California, Berkeley. It is a new technology that is being developed by the University",
+    "cache_hit": true,
+    "latency_ms": 1.752487999965524,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.4995080000044254,
+    "request_id": 46
+  },
+  {
+    "result": "How do neural networks work?1. What is the difference between a neural network and a neural network?2. What is the difference between a neural network and a neural network?3. What is the difference between a neural network and a neural network?4. What is the",
+    "cache_hit": true,
+    "latency_ms": 1.3079820000712061,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.1831349997446523,
+    "request_id": 47
+  },
+  {
+    "result": "Explain machine learning in simple terms.\n\nMachine learning is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is a process of learning a system of information. It is",
+    "cache_hit": true,
+    "latency_ms": 1.7363110000587767,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 3.2221240003309504,
+    "request_id": 48
+  },
+  {
+    "result": "What is the capital of France?\nFrance is the capital of the French Republic.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not sure what you mean.\nI'm not",
+    "cache_hit": true,
+    "latency_ms": 0.6179879997034732,
+    "batch_queue_depth": 0,
+    "client_latency_ms": 2.396392999798991,
+    "request_id": 49
+  }
+]
