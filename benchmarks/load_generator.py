@@ -50,7 +50,8 @@ async def run_load(url: str, concurrency: int, total_requests: int,
                 if random.random() < repeat_ratio:
                     prompt = REPEATED_PROMPT
                 else:
-                    prompt = random.choice(SAMPLE_PROMPTS)
+                    base_prompt = random.choice(SAMPLE_PROMPTS)
+                    prompt = f"{base_prompt} [req_{i}]"
                 result = await send_request(session, url, prompt, use_cache)
                 result["request_id"] = i
                 return result

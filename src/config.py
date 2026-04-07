@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     batch_timeout_ms: float = 50.0
 
     # Caching
-    cache_backend: str = "redis"
+    cache_backend: str = "inmemory"
     redis_host: str = "localhost"
     redis_port: int = 6379
     cache_ttl_seconds: int = 300

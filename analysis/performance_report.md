@@ -46,8 +46,8 @@ from ~2000ms to sub-millisecond.
 All benchmarks were conducted using the following methodology:
 - Cache was explicitly cleared via DELETE /cache before each cold measurement
 - Warm cache measurements immediately followed cold runs with identical prompts
-- A repeat_ratio of 0.5 was used for cache tests (50% repeated prompts)
-- Metrics captured: mean, median, P95, P99 latency and cache hit rate
+- Cold cache used unique prompts only; warm cache and hit-rate tests used 50% repeated prompts
+- Metrics captured: mean, median, P95, P99 latency, wall-clock runtime, throughput, and cache hit rate
 - Server was fully warmed up before final measurements
 
 ---
@@ -58,18 +58,18 @@ All benchmarks were conducted using the following methodology:
 
 | Configuration | Mean (ms) | Median (ms) | P95 (ms) | P99 (ms) |
 |---|---|---|---|---|
-| Single request (no cache) | 2281.0 | 2279.8 | 2303.6 | 2303.6 |
-| Batched (no cache) | 7329.8 | 8643.6 | 9747.9 | 9747.9 |
-| Cold cache | 1989.8 | 1986.5 | 3987.6 | 3987.6 |
-| Warm cache | 893.3 | 2.1 | 4462.5 | 4462.5 |
+| Single request (no cache) | 3389.7 | 3389.7 | 3415.3 | 3415.3 |
+| Batched (no cache) | 9186.2 | 10248.6 | 11064.6 | 11064.6 |
+| Cold cache | 6880.9 | 6919.4 | 10865.4 | 10865.4 |
+| Warm cache | 3483.3 | 1.3 | 10974.0 | 10974.0 |
 
 See Fig 1 (latency_comparison.png) for visualization.
 
 ### 4.2 Caching Impact
 Cold-to-warm cache transition reduced mean latency from
-1989.8ms to 893.3ms
-— a 2.2x improvement.
-The warm cache hit rate reached 80%,
+6880.9ms to 3483.3ms
+— a 2.0x improvement.
+The warm cache hit rate reached 50%,
 demonstrating that repeated prompts are served entirely from cache without
 touching the model.
 
@@ -77,14 +77,14 @@ touching the model.
 
 | Load Level | Concurrency | Mean Latency (ms) | Cache Hit Rate |
 |---|---|---|---|
-| Low | 5 | 1912.1 | 67% |
-| Medium | 10 | 4189.0 | 25% |
-| High | 15 | 5554.4 | 24% |
+| Low | 5 | 5154.0 | 20% |
+| Medium | 10 | 7324.8 | 20% |
+| High | 15 | 10981.8 | 12% |
 
 See Fig 2 (throughput_by_load.png) for visualization.
 
 ### 4.4 Cache Hit Rate Over Time
-Starting from a cold cache, the hit rate grew to 70%
+Starting from a cold cache, the hit rate grew to 42%
 over 50 requests with 50% repeated prompts. The hit rate stabilized after
 approximately 15 requests as the cache warmed up. See Fig 3
 (cache_hit_rate_over_time.png) for the time-series visualization.
@@ -106,8 +106,8 @@ throughput improvement.
 
 ### 5.2 Cache Size vs. Hit Rate
 With max_entries=1000 and TTL=300s, our cache can hold up to 1000 unique
-prompt-response pairs. With a 50% repeat ratio, hit rates of 70% are achievable
-in steady state. Increasing cache size beyond the working set of unique prompts
+prompt-response pairs. In our observed CPU benchmark run with a 50% repeat ratio,
+hit rates reached about 42% over time and 50% in the warm-cache scenario. Increasing cache size beyond the working set of unique prompts
 yields diminishing returns. A smaller cache (e.g., 100 entries) with high-traffic
 workloads risks evicting frequently used entries, reducing hit rate.
 
@@ -132,10 +132,11 @@ Based on empirical results, the following strategies are recommended for product
 
 ## 7. Conclusion
 
-Both batching and caching provide measurable performance improvements. Caching
-delivers the most dramatic latency reduction (2.2x)
-for repeated prompts, while batching provides throughput benefits most visible
-on GPU hardware. Together, these optimizations form the foundation of
-production-grade LLM serving infrastructure.
+Caching provides a measurable performance improvement in this CPU-based run.
+Warm-cache behavior reduced mean latency by about 2.0x for repeated prompts.
+Batching did not reduce latency on this CPU setup and in fact increased it under
+concurrency, but it remains an important production optimization that is expected
+to provide clearer benefits on GPU hardware. Together, batching and caching still
+represent core serving patterns for production-grade LLM infrastructure.
 
 *Charts referenced: Fig 1-4 in analysis/visualizations/*
